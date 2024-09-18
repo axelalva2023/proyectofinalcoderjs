@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#iniciar-juego{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#iniciar-juego:hover{
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+}
+
+#contenedor-juego{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.card{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.card-value{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;   
+}
+
+#mensaje{
+    color: green;
+    font-size: 40px;
+    font-weight: bold;
+}
